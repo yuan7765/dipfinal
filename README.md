@@ -27,6 +27,10 @@ pip install scipy
 pip install huggingface-hub
 pip install segmentation-models-pytorch
 ```
+To launch the Streamlit Interface, enter into code/ and run:
+```
+streamlit run Whitebox_style_transfer.py
+```
 
 ## Acknowledgement
 @inproceedings{wang2022aesust,
