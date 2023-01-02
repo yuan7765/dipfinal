@@ -151,6 +151,7 @@ def optimize_params(effect, preset, content, style, result_image_placeholder):
                                         write_video=False, base_dir=base_dir,
                                         iter_callback=lambda i: progress_bar.progress(
                                             float(i) / ST_CONFIG["n_iterations"]))
+    torch.cuda.empty_cache()
     # detach(): detach the tensor from the computation graph, and "forget" about its gradient.
     st.session_state["effect_input"], st.session_state["result_vp"] = content_img_cuda.detach(), vp.cuda().detach()
     
