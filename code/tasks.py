@@ -131,6 +131,8 @@ def optimize_params(effect, preset, content, style, result_image_placeholder):
                             device=torch.device("cuda"), space="uniform")
     elif st.session_state['transferMode'] == "AesUST":
         reference = testAesUST(content,style)
+    
+    torch.cuda.empty_cache()
 
     # Display a progress bar (會顯示進度條)
     progress_bar = result_image_placeholder.progress(0.0)
