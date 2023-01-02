@@ -10,6 +10,23 @@ We would like to combine different methods to form a better result for style tra
 4. Fast Artistic Videos from [Fast Artistic Videos in pyTorch](https://github.com/pgalatic/fast-artistic-videos-pytorch)
 5. ReReVST from [ReReVST-Code](https://github.com/daooshee/ReReVST-Code?fbclid=IwAR0cMbVQ100brf97DcybltNrZ6bEGjxAg769LZP0rWLnGM6VYfHgRvGWwFM)
 ## How to use Streamlit
+### Prerequisites
+We use Python 3.10 and run the below code to install the required packages.
+```
+pip install imageio
+pip install imageio-ffmpeg
+pip install matplotlib
+pip install Pillow
+pip install numpy
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
+pip install streamlit==1.10.0
+pip install streamlit_drawable_canvas==0.8.0
+pip install streamlit-extras==0.1.5
+pip install st-click-detector
+pip install scipy
+pip install huggingface-hub
+pip install segmentation-models-pytorch
+```
 
 ## Acknowledgement
 @inproceedings{wang2022aesust,
