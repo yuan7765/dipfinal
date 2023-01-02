@@ -70,7 +70,7 @@ streamlit run Whitebox_style_transfer.py
 3. Press the Optimize Style Transfer Button in sidebar.
 4. Wait about 3 minutes for style transfer and parameter values optimization.
 5. The result image will show up, and you can edit it via Global Edits Sliders. 
-6. Click the Reset Parameters Button, and the parameter will reset to optimized parameters
+6. Click the Reset Parameters Button, and the parameter will bet reseted to optimized parameters
 
 > **Warning**  
 > - The default style & content images (like starry night & girl portrait images) are provided by WISE'authors and only precomputed for STROTSS.  
@@ -80,5 +80,6 @@ streamlit run Whitebox_style_transfer.py
 ### Apply Preset
 
 1. Click the Apply Preset page in sidebar or clink the Paint Presets Button (below Global Edits Sliders) to switch page.
-2. 
+2. Choose the effect you want to modify in sidebar.
+3. 
 
