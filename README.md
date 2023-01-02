@@ -63,6 +63,9 @@ Run below command in [code/](https://github.com/yuan7765/dipfinal/tree/main/code
 ```
 streamlit run Whitebox_style_transfer.py
 ```
+> **Note**  
+> Check the [Demo Video](https://www.youtube.com/watch?v=QDhb_q-CWzY) first!
+
 ### Whitebox style transfer Page
 
 1. Choose the style transfer model in selectbox (STROTSS or AesUST).
@@ -86,7 +89,7 @@ streamlit run Whitebox_style_transfer.py
 5. Click Apply Button to save the changes.
 
 > **Warning**  
-> This page only take effect after the stylized image has been genereated.
+> Apply Preset page only take effect after the stylized image has been genereated.
 
 ### Combined Two Style By Drawing
 
@@ -111,4 +114,4 @@ streamlit run Whitebox_style_transfer.py
 4. The filter effect will show up in mask part.
 
 > **Warning**  
-> This page only take effect after the stylized image has been genereated.
+> Local Edits page only take effect after the stylized image has been genereated.
