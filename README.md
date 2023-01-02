@@ -82,7 +82,7 @@ streamlit run Whitebox_style_transfer.py
 
 ### Apply Preset
 
-1. Click the Apply Preset page in sidebar or clink the Paint Presets Button (below Global Edits Sliders) to switch page.
+1. Click the Apply Preset page in sidebar or click the Paint Presets Button (below Global Edits Sliders) to switch page.
 2. Choose the filter effect you want to modify in sidebar.
 3. Draw mask via mouse.
 4. The filter effect will show up in mask part.
@@ -108,7 +108,7 @@ streamlit run Whitebox_style_transfer.py
 
 ### Local Edits
 
-1. Click the Local Edits page in sidebar or clink the Edit Local Parameter Maps Button (below Global Edits Sliders) to switch page.
+1. Click the Local Edits page in sidebar or click the Edit Local Parameter Maps Button (below Global Edits Sliders) to switch page.
 2. Choose the filter effect you want to modify in sidebar.
 3. Draw mask via mouse.
 4. The filter effect will show up in mask part.
