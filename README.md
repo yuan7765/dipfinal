@@ -7,6 +7,8 @@ We would like to combine different methods to form a better result for style tra
 1. AesUST from [Official Pytorch code for AesUST](https://github.com/EndyWon/AesUST)
 2. WISE from [White-box Style Transfer Editing (WISE)](https://github.com/winfried-ripken/wise)
 3. STROTSS from [Memory Efficient Version Of Strotts](https://github.com/futscdav/strotss)
+4. Fast Artistic Videos from [Fast Artistic Videos in pyTorch](https://github.com/pgalatic/fast-artistic-videos-pytorch)
+5. ReReVST [ReReVST-Code](https://github.com/daooshee/ReReVST-Code?fbclid=IwAR0cMbVQ100brf97DcybltNrZ6bEGjxAg769LZP0rWLnGM6VYfHgRvGWwFM)
 ## How to use Streamlit
 
 ## Acknowledgement
