@@ -69,6 +69,7 @@ streamlit run Whitebox_style_transfer.py
 2. Upload your style & content images from local, and the two images will show in sidebar.
 3. Press the Optimize Style Transfer Button in sidebar.
 4. Wait about 3 minutes for style transfer and parameter values optimization.
+5. The result image will show below the Result text, and you can edit it via Global Edits Sliders. 
 
 > **Warning**  
 > - The default style & content images (like starry night & girl portrait images) are provided by WISE'authors and only precomputed for STROTSS.  
