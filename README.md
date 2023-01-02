@@ -34,8 +34,20 @@ streamlit run Whitebox_style_transfer.py
 ```
 ### Whitebox style transfer Page
 
+1. Choose the style transfer model in selectbox (STROTSS or AesUST).
+2. Upload your style & content images from local, and the two images will show in sidebar.
+3. Press the Optimize Style Transfer Button in sidebar.
+4. Wait about 3 minutes for style transfer and parameter values optimization.
+
 > **Warning**  
 > - The default style & content images (like starry night & girl portrait images) are provided by WISE'authors and only precomputed for STROTSS.  
 > - If you want to choose default images for style or content, make sure that you choose default image first, then upload your own image. Otherwise, Optimize Style Transfer Button in sidebar won't show up.  
 > - You can not use default images for both style and content to run AesUST.
-
+## Acknowledgement
+@inproceedings{wang2022aesust,
+  title={AesUST: towards aesthetic-enhanced universal style transfer},
+  author={Wang, Zhizhong and Zhang, Zhanjie and Zhao, Lei and Zuo, Zhiwen and Li, Ailin and Xing, Wei and Lu, Dongming},
+  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
+  pages={1095--1106},
+  year={2022}
+}
