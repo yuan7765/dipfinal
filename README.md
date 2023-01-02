@@ -2,7 +2,37 @@
 DIP Final Report
 We would like to combine different methods to form a better result for style transferring tdtm, aka 武士雞, and give stable outputs for videos. 
 ## File Structure
-
+```
+group_11
+|
+--------code
+|
+--------data
+|       |
+|       -----------styles
+|       |
+|       -----------image_results
+|       |         |
+|       |         -------------AesUST_result
+|       |         |
+|       |         -------------WISE_result
+|       |         |
+|       |         -------------STROTSS_result
+|       |
+|       -----------combined_results
+|       |
+|       -----------video_results
+|                 |
+|                 -------------AesUST_result
+|                 |
+|                 -------------Fast_Artistic_result
+|                 |
+|                 -------------ReReVST_result
+|
+--------report.pdf
+|
+--------README.md
+```
 ## Methods Used
 1. AesUST from [Official Pytorch code for AesUST](https://github.com/EndyWon/AesUST)
 2. WISE from [White-box Style Transfer Editing (WISE)](https://github.com/winfried-ripken/wise)
