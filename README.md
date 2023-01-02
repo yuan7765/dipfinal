@@ -83,3 +83,15 @@ streamlit run Whitebox_style_transfer.py
 2. Choose the filter effect you want to modify in sidebar.
 3. Draw mask via mouse.
 4. The filter effect will show up in mask part.
+5. Click Apply Button to save the changes.
+
+> **Warning**  
+> This page only take effect after the stylized image has been genereated.
+
+### Apply Preset
+
+1. Click the Apply Preset page in sidebar or clink the Paint Presets Button (below Global Edits Sliders) to switch page.
+2. Choose the filter effect you want to modify in sidebar.
+3. Draw mask via mouse.
+4. The filter effect will show up in mask part.
+5. Click Apply Button to save the changes.
