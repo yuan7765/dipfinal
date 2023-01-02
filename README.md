@@ -5,6 +5,8 @@ We would like to combine different methods to form a better result for style tra
 
 ## Methods Used
 1. AesUST from [Official Pytorch code for AesUST](https://github.com/EndyWon/AesUST)
+2. WISE from [White-box Style Transfer Editing (WISE)](https://github.com/winfried-ripken/wise)
+3. STROTSS from [Memory Efficient Version Of Strotts](https://github.com/futscdav/strotss)
 ## How to use Streamlit
 
 ## Acknowledgement
