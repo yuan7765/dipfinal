@@ -453,6 +453,7 @@ def strotss(content_pil, style_pil, content_weight=1.0 * 16.0, device='cuda:0', 
     # renormalize image
     result_image -= result_image.min()
     result_image /= result_image.max()
+    torch.cuda.empty_cache()
     return np_to_pil(result_image * 255.)
 
 
