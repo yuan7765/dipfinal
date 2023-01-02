@@ -1,6 +1,6 @@
 # DIP Final
 DIP Final Report
-We would like to combine different methods to form a better result for style transferring tdtm, aka 武士雞, and give stable output of the videos. 
+We would like to combine different methods to form a better result for style transferring tdtm, aka 武士雞, and give stable outputs for videos. 
 ## File Structure
 
 ## Methods Used
@@ -44,11 +44,3 @@ streamlit run Whitebox_style_transfer.py
 > - The default style & content images (like starry night & girl portrait images) are provided by WISE'authors and only precomputed for STROTSS.  
 > - If you want to choose default images for style or content, make sure that you choose default image first, then upload your own image. Otherwise, Optimize Style Transfer Button in sidebar won't show up.  
 > - You can not use default images for both style and content to run AesUST.
-## Acknowledgement
-@inproceedings{wang2022aesust,
-  title={AesUST: towards aesthetic-enhanced universal style transfer},
-  author={Wang, Zhizhong and Zhang, Zhanjie and Zhao, Lei and Zuo, Zhiwen and Li, Ailin and Xing, Wei and Lu, Dongming},
-  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
-  pages={1095--1106},
-  year={2022}
-}
