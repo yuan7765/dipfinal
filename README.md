@@ -11,8 +11,7 @@ We would like to combine different methods to form a better result for style tra
 5. ReReVST from [ReReVST-Code](https://github.com/daooshee/ReReVST-Code?fbclid=IwAR0cMbVQ100brf97DcybltNrZ6bEGjxAg769LZP0rWLnGM6VYfHgRvGWwFM)
 ## How to use Streamlit
 ### Prerequisites
-We use Python 3.10 
-Please run the below code to install the required packages.
+We use Python 3.10. Please run the below code to install the required packages.
 ```
 pip install imageio
 pip install imageio-ffmpeg
