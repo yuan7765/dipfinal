@@ -34,8 +34,8 @@ streamlit run Whitebox_style_transfer.py
 ```
 ### Whitebox style transfer Page
 
-**Warning**
-The default style & content images (like starry night & girl portrait images) are provided by WISE'authors and only precomputed for STROTSS.
+> **Warning**
+> The default style & content images (like starry night & girl portrait images) are provided by WISE'authors and only precomputed for STROTSS.
 
 ## Acknowledgement
 @inproceedings{wang2022aesust,
