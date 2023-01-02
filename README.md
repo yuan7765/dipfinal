@@ -99,7 +99,7 @@ streamlit run Whitebox_style_transfer.py
 4. The background image will show up in mask part.
 5. You can change the mix intensity of main & background images in sidebar.
 
-### Combined Two Style By Drawing
+### Combined Two Style By Mask
 
 1. Click the Combined Two Style By Mask in sidebar
 2. Upload your main, background and mask images from local.
