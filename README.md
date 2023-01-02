@@ -49,7 +49,7 @@ pip install imageio-ffmpeg
 pip install matplotlib
 pip install Pillow
 pip install numpy
-pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
 pip install streamlit==1.10.0
 pip install streamlit_drawable_canvas==0.8.0
 pip install streamlit-extras==0.1.5
