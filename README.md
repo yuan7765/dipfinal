@@ -79,7 +79,7 @@ streamlit run Whitebox_style_transfer.py
 > - The default style & content images (like starry night & girl portrait images) are provided by WISE'authors and only precomputed for STROTSS.  
 > - If you want to choose default images for style or content, make sure that you choose default image first, then upload your own image. Otherwise, Optimize Style Transfer Button in sidebar won't show up.  
 > - You can not use default images for both style and content to run AesUST.
-> - If the code went wrong, it may be because the GPU is out of memory
+> - If the code went wrong, it may be because the GPU is out of memory.
 
 ### Apply Preset
 
